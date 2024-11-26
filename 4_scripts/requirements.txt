@@ -1,0 +1,12 @@
+pandas
+plotly
+streamlit
+flask
+selenium
+missingno
+matplotlib
+seaborn
+sqlalchemy 
+requests
+
+
