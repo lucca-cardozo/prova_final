@@ -10,7 +10,7 @@ import sqlite3
 try:
     mgl = sqlite3.connect('../1_bases_tratadas/magalu.db')
 except:
-    mgl = sqlite3.connect('bases_tratadas/magalu.db')
+    mgl = sqlite3.connect('1_bases_tratadas/magalu.db')
 
 df = pd.read_sql('SELECT * FROM Magazine', con=mgl)
 
